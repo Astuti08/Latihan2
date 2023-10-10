@@ -3,54 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat:wght@400;500&display=swap" rel="stylesheet" />
     <title>Coder</title>
-    <h1>Coder</h1>
-    <h1>Lorem ipsum dolor sit amet consectetur</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, eum autem.</p>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#more-info">More Info</a></li>
-                <li><a href="#contacts-us">Contacts Us</a></li>
-            </ul>
-        </nav>
-        <img src="c:\Users\Acer\Downloads\landing.png" alt="Tower Image">
+        <div class="header-left">
+            <h1>Coder</h1>
+        </div>
+        <div class="header-right">
+            <button>About</button>
+            <button>Service</button>
+            <button>Contact</button>
+        </div>
     </header>
-
-    <section id="more-info">
-        <div class="info">
+    
+    <section class="content">
+        <div class="text">
+            <h2>Lorem ipsum dolor sit amet consectetur </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, eum autem</p>
+            <button class="more-info-button">More Info</button>
+            <button class="contact-us-button">Contact Us</button>
+        </div>
+        <div class="image">
+            <img src="landing.png" alt="Tower Image">
+        </div>
+    </section>
+    
+    <section class="new-content">
+        <div class="image">
             <img src="c:\Users\Acer\Downloads\about.png" alt="About Image">
-            <div class="info-text">
-                <h1>We are the best in our field</h1>
-                <p>For the last 5 years, we have always delivered the best to our clients, and we will continue to do so.</p>
-                <p>100+ experts, 300+ clients, 500+ projects</p>
-            </div>
+        </div>
+        <div class="text">
+            <h2>We are the best in our field</h2>
+            <p>For the last 5 years, we have always delivered the best to our clients, and we will continue to do so.</p>
+            <ul class="point-list">
+                <li>
+                    <p>100+</p>
+                    <div class="blue-line"></div>
+                    <p>Experts</p>
+                </li>
+                <li>
+                    <p>300+</p>
+                    <div class="blue-line"></div>
+                    <p>Clients</p>
+                </li>
+                <li>
+                    <p>500+</p>
+                    <div class="blue-line"></div>
+                    <p>Projects</p>
+                </li>
+            </ul>
         </div>
     </section>
 
-    <section id="our-service">
-        <h2>Our Service</h2>
-        <p>We offer the best services to solve your problems.</p>
-    </section>
-
-    <section id="image-gallery">
-        <div class="image">
-            <img src="c:\Users\Acer\Downloads\service1.png" alt="Service 1">
-            <h3>Web Application</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, optio quod quasi aperiam at ratione</p>
-        </div>
-        <div class="image">
-            <img src="c:\Users\Acer\Downloads\service2.png" alt="Service 2">
-            <h3>UI/UX Design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, optio quod quasi aperiam at ratione</p>
-        </div>
-        <div class="image">
-            <img src="c:\Users\Acer\Downloads\service3.png" alt="Service 3">
-            <h3>Mobile Application</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, optio quod quasi aperiam at ratione</p>
-        </div>
-    </section>    
+    
