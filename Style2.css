@@ -58,3 +58,13 @@ header {
     max-width: 100%;
     height: auto;
 }
+
+.more-info-button,
+.contact-us-button {
+    background-color: #333; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
