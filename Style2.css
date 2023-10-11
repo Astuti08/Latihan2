@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -16,19 +16,27 @@ header {
 
 .header-left h1 {
     font-size: 40px;
-    margin-left: 0;
+    margin-left: 30px;
+}
+
+.header-right {
+    margin-right: 30px;
 }
 
 .header-right button {
     background-color: transparent;
     border: none;
     color: black;
-    margin-left: 10px;
+    margin-left: 30px;
     cursor: pointer;
 }
 
 .header-right button:hover {
     text-decoration: underline;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .content {
@@ -46,8 +54,9 @@ header {
     margin-bottom: 10px;
 }
 
-.text {
+.text p {
     font-size: 35px;
+    color: #ccc;
 }
 
 .image {
@@ -60,9 +69,8 @@ header {
     height: auto;
 }
 
-.more-info-button,
-.contact-us-button {
-    background-color: #333; 
+.more-info-button {
+    background-color: #00DFC0;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -70,3 +78,18 @@ header {
     cursor: pointer;
 }
 
+.contact-us-button {
+    background-color: #00DFC0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.more-info-button:hover,
+.contact-us-button:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #00DFC0;
+}
