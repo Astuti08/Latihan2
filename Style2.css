@@ -148,3 +148,89 @@ body {
     background-color: #00DFC0;
     margin: 10px auto;
 }
+
+.point-list p {
+    font-size: 20px;
+}
+
+.our-service {
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.service-header h2 {
+    font-size: 40px;
+    margin-bottom: 10px; 
+}
+
+.contact-us-button {
+    background-color: #00DFC0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.service-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.service-content .image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    max-width: calc(33.33% - 40px);
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-content h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.service-content p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    margin: 30px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-header {
+    margin-bottom: 20px;
+}
+
+.contact-footer {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
