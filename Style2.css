@@ -315,3 +315,34 @@ body {
     border: 2px solid #00DFC0;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00DFC0;
+    color: white;
+    padding: 10px 20px;
+}
+
+.footer-left {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.footer-left h4 {
+    margin: 0;
+}
+
+.footer-left p {
+    font-size: 12px;
+}
+
+.footer-right {
+    margin-right: 10px;
+}
+
+.footer-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
