@@ -93,3 +93,58 @@ body {
     color: black;
     border: 2px solid #00DFC0;
 }
+
+.new-content {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.new-content .text {
+    flex: 1;
+    padding: 10px;
+}
+
+.new-content .text h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.new-content .text a {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.new-content .text p {
+    font-size: 20px;
+}
+
+.new-content .image {
+    flex: 1;
+    padding: 10px;
+}
+
+.new-content .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.point-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.point-list li {
+    flex: 1;
+    text-align: center;
+}
+
+.blue-line {
+    height: 10px;
+    width:80px;
+    background-color: #00DFC0;
+    margin: 10px auto;
+}
